@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "thang123",
+    "database": "fptu-mock-api",
+    "host": "localhost",
+    "port": 1433,
+    "dialect": "mssql"
+  },
+  "test": {
+    "username": "sa",
+    "password": "thang123",
+    "database": "fptu-mock-api",
+    "host": "localhost",
+    "port": 1433,
+    "dialect": "mssql"
+  }
+}

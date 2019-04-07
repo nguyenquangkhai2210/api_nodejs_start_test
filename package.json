@@ -1,0 +1,26 @@
+{
+  "name": "fptu-api",
+  "version": "1.0.0",
+  "description": "FPTU API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2",
+    "production": "babel-node index.js --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tuhuynh",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.6.0",
+    "nodemon": "^1.18.4",
+    "sequelize": "^5.2.12",
+    "pg": "^7.9.0",
+    "pg-hstore": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "tedious": "^6.1.0"
+  }
+}
